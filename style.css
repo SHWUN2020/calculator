@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(77, 77, 77);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.background{
+    background-color: rgb(20, 20, 20);
+    color:white;
+    width: 350px;
+    height: 520px;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.507);
+}
+.inevent{
+    background-color: rgb(34, 34, 34);
+    width: 310px;
+    height: 80px;
+    border: none;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#num{
+    position:absolute;
+    text-align: center;
+    font-size: 50px;
+}
+.num9{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.num8{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.num7{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.num6{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 160px;
+    margin-left: 180px;
+}
+.num5{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 160px;
+    margin-left: 100px;
+}
+.num4{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 160px;
+    margin-left:20px;
+}
+.num3{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 240px;
+    margin-left: 180px;
+}
+.num2{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 240px;
+    margin-left: 100px;
+}
+.num1{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 240px;
+    margin-left: 20px;
+}
+.num0{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 320px;
+    margin-left: 20px;
+    width: 150px;
+    height: 70px;
+}
+.eventD{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 320px;
+    margin-left: 180px;
+}
+.eventM{
+    width: 70px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(70, 0, 0);
+    margin-top: 240px;
+    margin-left: 260px;
+}
+.eventP{
+    width: 70px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    margin-top: 80px;
+    margin-left: 260px;
+}
+.eventCE{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.eventZ{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    margin-left: 180px;
+}
+.eventTF{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    margin-left: 260px;
+}
+.eventT{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+    margin-left: 100px;
+}
+h1{
+    margin-left: 400px;
+}
+h2{
+    margin-left: 400px;
+}
