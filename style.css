@@ -1,50 +1,107 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
-    background-color: rgb(77, 77, 77);
+    background-color: #4d4d4d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.background{
-    background-color: rgb(20, 20, 20);
-    color:white;
-    width: 350px;
-    height: 520px;
+
+.background {
+    background-color: #141414;
+    color: white;
+    max-width: max-content;
+    height: auto;
     align-items: center;
+    padding: 20px;
     border-radius: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
-    box-shadow: 20px 20px 20px 0 rgba(0, 0, 0, 0.507);
+    margin:40px auto;
+    box-shadow: 20px 20px 20px 0 #00000081;
 }
-.inevent{
-    background-color: rgb(34, 34, 34);
-    width: 310px;
-    height: 80px;
+
+.inputevent {
+    width: auto;
+    height: 70px;
+    background-color: #222222;
     border: none;
-    font-size: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: 40px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    /* padding: 10px; */
+    margin: auto auto 10px;
 }
-#num{
-    position:absolute;
+
+.inevent {
+    background-color: #222222;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;
+    border: 1px solid #fbff00;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.butnum {
+    /* border: 1px solid #fbff00; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.number {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.fun {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    margin: auto auto auto 10px;
+}
+
+.num0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#num {
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
+    background: #1b1b1b;
+    color: #fff;
     cursor: pointer;
-    border-top: 5px solid #464646;
-    border-left: 5px solid #464646;
-    border-right: 1px solid #464646;
-    border-bottom: 1px solid #464646;
+    border-top: 5px solid #464646 inset;
+    border-left: 5px solid #464646 inset;
+    border-right: 1px solid #464646 inset;
+    border-bottom: 1px solid #464646 inset;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
 }
-#num:hover{
+
+#num:hover {
     box-shadow: 0 0 2px 2px #fbff00 inset;
 }
-#num:active{
+
+#num:active {
     border: none;
+    background: #4d4d4d;
 }
-.num9{
+
+.Title {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* .num9{
     width: 70px;
     height: 70px;
     border-radius: 10px;
@@ -178,10 +235,4 @@ body {
     border-radius: 10px;
     background-color: rgb(90, 90, 90);
     margin-left: 100px;
-}
-h1{
-    margin-left: 400px;
-}
-h2{
-    margin-left: 400px;
-}
+} */

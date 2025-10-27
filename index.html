@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="Image/475497.png">
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
+
 <body>
 
     <div class="background">
         <div class="inputevent">
-            <input class="inevent" type="text" placeholder=" |">
+            <span class="inevent" id="segment">0</span>
         </div>
         <div class="butnum">
-            <div class="num9" id="num">9</div>
-            <div class="num8" id="num">8</div>
-            <div class="num7" id="num">7</div>
-            <div class="num6" id="num">6</div>
-            <div class="num5" id="num">5</div>
-            <div class="num4" id="num">4</div>
-            <div class="num3" id="num">3</div>
-            <div class="num2" id="num">2</div>
-            <div class="num1" id="num">1</div>
-            <div class="num0" id="num">0</div>
-            <div class="eventD" id="num">.</div>
-            <div class="eventM" id="num">=</div>
-            <div class="eventZ" id="num">x</div>
-            <div class="eventP" id="num">+</div>
-            <div class="eventTF" id="num">-</div>
-            <div class="eventT" id="num">/</div>
-            <div class="eventCE" id="num">CE</div>
+            <div class="number">
+                <button class="eventCE" onclick="fun(true, 0)" id="num">CE</button>
+                <button class="eventT" onclick="fun(true, 1)" id="num">/</button>
+                <button class="eventZ" onclick="fun(true, 2)" id="num">x</button>
+                <button class="num9" onclick="num(9)" id="num">9</button>
+                <button class="num8" onclick="num(8)" id="num">8</button>
+                <button class="num7" onclick="num(7)" id="num">7</button>
+                <button class="num6" onclick="num(6)" id="num">6</button>
+                <button class="num5" onclick="num(5)" id="num">5</button>
+                <button class="num4" onclick="num(4)" id="num">4</button>
+                <button class="num3" onclick="num(3)" id="num">3</button>
+                <button class="num2" onclick="num(2)" id="num">2</button>
+                <button class="num1" onclick="num(1)" id="num">1</button>
+                <button class="num0" onclick="num(0)" style="width: 100%;" id="num">0</button>
+                <button class="eventD" onclick="dot(true)" id="num">.</button>
+            </div>
+            <div class="fun">
+                <button class="eventTF" id="num">-</button>
+                <button class="eventP" onclick="fun(true, 3)" style="height: 150px;" id="num">+</button>
+                <button class="eventM"  onclick="fun(true, 4)" style="background-color: #420400;height: 150px;" id="num">=</button>
+            </div>
         </div>
-        <h1>Created by Shahin Faraji</h1>
-        <h2>Calculator for you!</h2>
-    </div>
 
+    </div>
+    <div class="Title">
+        <h1>Calculator for you!</h1>
+        <h2>Created by Shahin Faraji</h2>
+        <br>
+        <h3>V 2.0.0</h3>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
