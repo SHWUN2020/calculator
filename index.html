@@ -13,14 +13,14 @@
 <body>
 
     <div class="background">
-        <div class="inputevent">
-            <span class="inevent" id="segment">0</span>
+        <div class="inputevent" id="base-segment">
+            <input type="number" class="inevent" id="segment" value="0">
         </div>
         <div class="butnum">
             <div class="number">
                 <button class="eventCE" onclick="fun(true, 0)" id="num">CE</button>
                 <button class="eventT" onclick="fun(true, 1)" id="num">/</button>
-                <button class="eventZ" onclick="fun(true, 2)" id="num">x</button>
+                <button class="eventZ" onclick="fun(true, 2)" id="num">×</button>
                 <button class="num9" onclick="num(9)" id="num">9</button>
                 <button class="num8" onclick="num(8)" id="num">8</button>
                 <button class="num7" onclick="num(7)" id="num">7</button>
@@ -34,9 +34,10 @@
                 <button class="eventD" onclick="dot(true)" id="num">.</button>
             </div>
             <div class="fun">
-                <button class="eventTF" id="num">-</button>
+                <button class="eventTF" onclick="fun(true, 4)" id="num">-</button>
                 <button class="eventP" onclick="fun(true, 3)" style="height: 150px;" id="num">+</button>
-                <button class="eventM"  onclick="fun(true, 4)" style="background-color: #420400;height: 150px;" id="num">=</button>
+                <button class="eventM" onclick="fun(true, 5)" style="background-color: #420400;height: 150px;"
+                    id="num">=</button>
             </div>
         </div>
 
@@ -45,7 +46,7 @@
         <h1>Calculator for you!</h1>
         <h2>Created by SHWUN</h2>
         <br>
-        <h3>V 2.0.0</h3>
+        <h3>V 2.1.0</h3>
     </div>
     <script src="script.js"></script>
 </body>

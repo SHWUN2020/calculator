@@ -4,43 +4,52 @@
 }
 
 body {
-    background-color: #4d4d4d;
+    background-color: #3b3b3b;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .background {
+    display: block;
     background-color: #141414;
     color: white;
-    max-width: max-content;
+    max-width: 300px;
+    border: 5px solid;
+    border-color: #5f5f5f #000000 #000000 #5f5f5f;
     height: auto;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
-    margin:40px auto;
+    margin: 40px auto;
     box-shadow: 20px 20px 20px 0 #00000081;
 }
 
 .inputevent {
+    display: flex;
     width: auto;
     height: 70px;
     background-color: #222222;
-    border: none;
-    font-size: 40px;
+    border: 2px solid;
+    border-color: #5f5f5f #000000 #000000 #5f5f5f;
     border-radius: 10px;
     /* padding: 10px; */
     margin: auto auto 10px;
+    overflow: hidden;
 }
 
 .inevent {
     background-color: #222222;
-    width: auto;
-    height: auto;
+    width: 100%;
     margin: auto;
-    display: block;
-    border: 1px solid #fbff00;
+    
+    /* border: 1px solid #fbff00; */
     padding: 10px;
     color: #fff;
+    font-size: 45px;
     border-radius: 10px;
+    font-family: "digital-7";
+}
+.inevent[type=text]{
+    box-sizing: border-box;
 }
 
 .butnum {
@@ -74,10 +83,6 @@ body {
     background: #1b1b1b;
     color: #fff;
     cursor: pointer;
-    border-top: 5px solid #464646 inset;
-    border-left: 5px solid #464646 inset;
-    border-right: 1px solid #464646 inset;
-    border-bottom: 1px solid #464646 inset;
     width: 70px;
     height: 70px;
     padding: 10px;
